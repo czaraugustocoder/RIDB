@@ -12,7 +12,7 @@ serie_gini_excel = os.path.join(current_working_directory, "serie_gini.xlsx")
 # Configurar a página para usar a largura total
 st.set_page_config(layout="wide")
 
-st.title('R.I.D.B - Relatório interativo da desigualdade brasileira')
+st.title('R.I.D.B - Relatório Interativo da Desigualdade Brasileira')
 st.write('O Índice de Gini é uma medida de desigualdade de renda ou riqueza em uma população. Foi desenvolvido pelo estatístico italiano Corrado Gini e é amplamente utilizado para quantificar a disparidade econômica dentro de um país ou região.')
 
 # Carrega o DataFrame a partir de um arquivo Excel
